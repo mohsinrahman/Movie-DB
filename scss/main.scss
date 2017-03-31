@@ -1,0 +1,102 @@
+body{
+	
+ background: url("../images/bgl.jpeg") no-repeat fixed;
+  color: #ffffff; 
+  font-family: Diamond Dust;
+
+}
+
+
+.heading{
+	
+	text-align:center;
+	color:#2e2d3b;
+	font-size: 40px;
+}
+#allMovies{
+	
+	 
+	
+}
+#searchBy{
+	
+
+}
+#searchByYear {
+	
+	width: 300px;
+	margin: 10px auto;
+		
+}
+#searchByYear input{
+	
+		
+}
+#listMovi{
+ 
+	
+}
+
+.listMov{
+	   
+    font-family: Poppins;
+	background-color:#2e2d3b;
+	height:100%;
+	width: 350px;
+	border-bottom: 6px solid silver;
+	border-top: 6px solid silver;
+	color:#ffffff;
+	font-size: 10px;
+	border-radius: 1%;
+	
+}
+
+.listNon{
+	
+	display: none;
+}
+
+#logo{
+    clear:both;
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+	background: url("../images/soundtrack.jpg") no-repeat center center;
+}
+
+.black-btn{
+	border:0;
+	border-radius:5%;
+	background:#2e2d3b;
+	color: #ffffff; 
+	height: 40px;
+	font-size:30px;
+
+}
+.black-btn:hover , .black-btn:focus{	
+	color: gray !important;
+}
+
+#movieList{
+	list-style-type: none;
+	margin-top: 70px;
+}
+
+#filmytext{
+	height: 300px;
+	width: 100%;
+	background: url("../images/shack-billing.png") no-repeat;
+}
+
+#btnRating,.giveRating {
+	
+
+	color:#2e2d3b ;
+}
+
+
+
+#year , #genre, #resultList{
+	
+	margin-top:25px;
+}

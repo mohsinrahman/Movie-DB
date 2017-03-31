@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie Database</title>
+	<link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+     
+     <div class="container">       
+     <h2 class="heading">MOVIE COLLECTION</h2>
+      
+     <div class="row">
+     <div class="col-md-4" id="allMovies"> 
+     <button id="listMovies" type="submit" class="btn black-btn">List of Movies</button>
+
+     <ul id="movieList">	
+     </ul>
+     </div>
+
+     <div class="col-md-8" id="searchBy"> 
+          <div class="row">
+               <div class="col-md-3">
+                     <div class="form-inline">
+                  <button id="byYear" type="submit" class="btn black-btn">Search By Year</button>
+                    
+                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="year" placeholder="Year">                   
+                     </div>
+               </div>
+               <div class="col-md-3">
+                    <div class="form-inline">    
+                         <button id="byGenre" type="submit" class="btn black-btn">Search By Genre</button>
+                         <!-- <input id="byGenre" type="submit" value="Search By Genre" class="black-btn"> -->
+                         <input id="genre" type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Genre"> 
+                    </div>
+               </div>
+               <div class="col-md-3">
+                    <div class="form-inline">
+                         <button id="bytopRating" type="submit" class="btn black-btn">Top Rated Movie</button>
+                    </div>
+               </div>
+               <div class="col-md-3">
+                    <div class="form-inline">
+                         <button id="bylowRating" type="submit" class="btn black-btn">Low Rated Movie</button>
+                    </div>
+               </div>
+          </div>
+         
+          
+          
+          
+
+          <div id="result">
+               <ul id="resultList">
+                    
+               </ul>
+          </div> 
+      
+     </div>
+     </div>
+
+    </div>
+     <p id="logo"></p>
+     <p id="filmytext"></p>
+	
+	<script src="script.js"></script>
+</body>
+</html>
