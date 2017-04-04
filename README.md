@@ -2,5 +2,5 @@
 ## Javascript II
 ## Movie DB
 ## Front-End Development
-### Used SASS to for styling
+### Used SASS for styling
 
